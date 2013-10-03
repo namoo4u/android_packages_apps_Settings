@@ -297,4 +297,16 @@
     <!-- Privacy guard notification -->
     <string name="privacy_guard_notification_title">Notification</string>
     <string name="privacy_guard_notifiation_summary">Show a notification if privacy guard is active</string>
+
+    <!-- Lock screen shortcuts -->
+    <string name="lockscreen_message_disabled">Shortcuts are disabled.</string>
+    <string name="lockscreen_shortcuts_enabled">Lock screen shortcuts are enabled</string>
+    <string name="lockscreen_shortcuts_disabled">Lock screen shortcuts are disabled</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Device default</string>
+    <string name="lcd_density_unsupported">Unsupported</string>
+    <string name="restarting_ui">Restarting</string>
 </resources>
