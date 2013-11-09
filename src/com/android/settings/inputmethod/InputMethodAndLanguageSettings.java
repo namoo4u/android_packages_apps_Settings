@@ -96,6 +96,8 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
     private static final String KEY_PREVIOUSLY_ENABLED_SUBTYPES = "previously_enabled_subtypes";
     private static final String KEY_FULL_SCREEN_KEYBOARD = "fullscreen_keyboard_mode";
     private static final String KEY_HIGH_TOUCH_SENSITIVITY = "high_touch_sensitivity";
+    private static final String KEY_TRACKPAD_SETTINGS = "gesture_pad_settings";
+
     // false: on ICS or later
     private static final boolean SHOW_INPUT_METHOD_SWITCHER_SETTINGS = false;
 
@@ -189,6 +191,8 @@ public class InputMethodAndLanguageSettings extends SettingsPreferenceFragment
                 mHighTouchSensitivity.setChecked(HighTouchSensitivity.isEnabled());
             }
 
+            Utils.updatePreferenceToSpecificActivityFromMetaDataOrRemove(getActivity(),
+                            pointerSettingsCategory, KEY_TRACKPAD_SETTINGS);
             if (pointerSettingsCategory.getPreferenceCount() == 0) {
                 getPreferenceScreen().removePreference(pointerSettingsCategory);
             }
