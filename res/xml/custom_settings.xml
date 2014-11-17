@@ -28,6 +28,12 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:key="expanded_desktop"
+        android:title="@string/power_menu_expanded_desktop"
+        android:fragment="com.android.settings.applications.ExpandedDesktopPreferenceFragment" >
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:key="lock_clock"
         android:title="@string/lock_clock_title">
         <intent android:action="android.intent.action.MAIN"
