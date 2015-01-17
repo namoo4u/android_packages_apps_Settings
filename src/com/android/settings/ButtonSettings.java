@@ -44,7 +44,6 @@ import com.android.internal.widget.LockPatternUtils;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
-import com.android.settings.cyanogenmod.SystemSettingSwitchPreference;
 import com.android.settings.cyanogenmod.ButtonBacklightBrightness;
 
 import org.cyanogenmod.hardware.KeyDisabler;
@@ -67,7 +66,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private static final String DISABLE_NAV_KEYS = "disable_nav_keys";
     private static final String KEY_NAVIGATION_BAR_LEFT = "navigation_bar_left";
     private static final String KEY_POWER_END_CALL = "power_end_call";
-    private static final String KEY_POWER_MENU_LOCKSCREEN = "lockscreen_enable_power_menu";
     private static final String KEY_HOME_ANSWER_CALL = "home_answer_call";
 
     private static final String CATEGORY_POWER = "power_key";
@@ -117,7 +115,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
     private SwitchPreference mDisableNavigationKeys;
     private SwitchPreference mNavigationBarLeftPref;
     private SwitchPreference mPowerEndCall;
-    private SystemSettingSwitchPreference mPowerMenuLockscreen;
     private SwitchPreference mHomeAnswerCall;
 
     private PreferenceCategory mNavigationPreferencesCat;
@@ -320,12 +317,6 @@ public class ButtonSettings extends SettingsPreferenceFragment implements
             hasAnyBindableKey = true;
         } else {
             prefScreen.removePreference(menuCategory);
-        }
-
-        final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
-        mPowerMenuLockscreen = (SystemSettingSwitchPreference) findPreference(KEY_POWER_MENU_LOCKSCREEN);
-        if (!lockPatternUtils.isSecure()) {
-            powerCategory.removePreference(mPowerMenuLockscreen);
         }
 
         if (Utils.hasVolumeRocker(getActivity())) {

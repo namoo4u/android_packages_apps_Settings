@@ -72,7 +72,8 @@
 
     <!--Power menu -->
     <string name="power_category">Power button</string>
-    <string name="lockscreen_enable_power_menu_title">Show power menu lock screen</string>
+    <string name="lockscreen_enable_power_menu_title">Enable on lock screen</string>
+    <string name="actions_category">Actions</string>
 
     <!-- Touch control -->
     <string name="touch_control_settings_title">Touch control</string>
@@ -123,17 +124,17 @@
 
     <!-- QuickSettings collapse panel -->
     <string name="quick_settings_collapse_title">Auto close panel</string>
-    <string name="quick_settings_collapse_summary">Close the Quick Settings panel upon toggle</string>
+    <string name="quick_settings_collapse_summary">Close the quick settings panel upon toggle</string>
 
-        <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Show brightness slider</string>
+    <!-- QuickSettings brightness slider -->
+    <string name="qs_brightness_slider_title">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
     <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
     <string name="supersu_title">SuperSU</string>
 
     <!-- Unaccounted and overcounted battery stats -->
-    <string name="show_unac_and_overcounted_stats_title">Show unaccounted/overcounted stats</string>
+    <string name="show_unac_and_overcounted_stats_title">Unaccounted/overcounted stats</string>
     <string name="show_unac_and_overcounted_stats_summary">Show battery statistics for unaccounted and over-counted usage</string>
 
     <!-- Keyguard notifications -->
@@ -211,7 +212,7 @@
     <string name="category_heads_up">Heads up notifications</string>
     <string name="summary_heads_up_enabled">Pop-up notifications are enabled</string>
     <string name="summary_heads_up_disabled">Pop-up notifications are disabled</string>
-    <string name="show_headsup_button_title">Show quick access button</string>
+    <string name="show_headsup_button_title">Quick access button</string>
     <string name="show_headsup_button_summary">Show a quick access button in the status bar header</string>
     <string name="add_heads_up_package">Add app</string>
     <string name="add_heads_up_dnd_summary">Don\'t show heads up in these applications</string>

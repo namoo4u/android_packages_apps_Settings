@@ -416,7 +416,7 @@
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
     <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
-    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_title">Notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
     <!-- Status bar - Battery -->
@@ -428,7 +428,7 @@
     <string name="status_bar_battery_style_hidden">Hidden</string>
 
     <!-- Status bar - Battery percentage -->
-    <string name="status_bar_battery_percentage_title">Show battery percentage</string>
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_dialog_title">Battery percentage</string>
     <string name="status_bar_battery_percentage_default">Hidden (default)</string>
     <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
@@ -863,7 +863,7 @@
     <string name="saving_protected_components">Saving component state</string>
 
     <!-- Weather in status bar -->
-    <string name="status_bar_show_weather_title">Show weather</string>
+    <string name="status_bar_show_weather_title">Weather</string>
     <string name="status_bar_show_weather_summary">Show the weather in the status bar header</string>
 
     <!-- Category title for Charging sounds (Power state change) specific Settings.

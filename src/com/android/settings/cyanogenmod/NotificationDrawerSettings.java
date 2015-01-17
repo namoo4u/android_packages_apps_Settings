@@ -17,20 +17,42 @@ package com.android.settings.cyanogenmod;
 
 import android.os.Bundle;
 import android.preference.Preference;
+import android.preference.Preference.OnPreferenceChangeListener;
+import android.preference.PreferenceScreen;
+import android.preference.SwitchPreference;
+import android.provider.Settings;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.cyanogenmod.qs.QSTiles;
 
-public class NotificationDrawerSettings extends SettingsPreferenceFragment {
+import com.android.internal.widget.LockPatternUtils;
+
+public class NotificationDrawerSettings extends SettingsPreferenceFragment
+            implements OnPreferenceChangeListener  {
+
+    private static final String QS_BLOCK_ON_SECURE_KEYGUARD = "qs_block_on_secure_keyguard";
+
     private Preference mQSTiles;
+    private SwitchPreference mBlockOnSecureKeyguard;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.notification_drawer_settings);
+        PreferenceScreen prefSet = getPreferenceScreen();
 
         mQSTiles = findPreference("qs_order");
+
+        final LockPatternUtils lockPatternUtils = new LockPatternUtils(getActivity());
+        mBlockOnSecureKeyguard = (SwitchPreference) findPreference(QS_BLOCK_ON_SECURE_KEYGUARD);
+        if (lockPatternUtils.isSecure()) {
+            mBlockOnSecureKeyguard.setChecked(Settings.Secure.getInt(getContentResolver(),
+                    Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD, 1) == 1);
+            mBlockOnSecureKeyguard.setOnPreferenceChangeListener(this);
+        } else {
+            prefSet.removePreference(mBlockOnSecureKeyguard);
+        }
     }
 
     @Override
@@ -41,4 +63,15 @@ public class NotificationDrawerSettings extends SettingsPreferenceFragment {
         mQSTiles.setSummary(getResources().getQuantityString(R.plurals.qs_tiles_summary,
                     qsTileCount, qsTileCount));
     }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        if (preference == mBlockOnSecureKeyguard) {
+            Settings.Secure.putInt(getContentResolver(),
+                    Settings.Secure.STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD,
+                    (Boolean) newValue ? 1 : 0);
+            return true;
+        }
+        return false;
+     }
 }
