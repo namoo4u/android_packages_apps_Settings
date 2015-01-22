@@ -69,6 +69,10 @@
     <string name="show_carrier_statusbar">Na pasku statusu</string>
     <string name="show_carrier_enabled">Włączone</string>
 
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
+    <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
+
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
     <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>
@@ -76,40 +80,6 @@
     <!-- Touch control -->
     <string name="touch_control_settings_title">Kontrola dotyku</string>
     <string name="touch_control_settings_summary">Zarządzaj zaawansowanymi opcjami wybudzania, w tym wybudzanie podwójnym dotknięciem i więcej</string>
-
-    <!-- Status bar | Clock -->
-    <string name="status_bar_clock_category">Pasek stanu</string>
-    <string name="status_bar_clock">Zegar i data</string>
-    <string name="status_bar_clock_title">Styl zegara i daty</string>
-    <string name="clock_title_enable">Położenie zegara</string>
-    <string name="clock_enabled">Włączony</string>
-    <string name="clock_disabled">Wyłączony</string>
-    <string name="status_bar_show_clock_title">Pokaż zegar i datę</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">Włączony format 24-godzinny</string>
-    <string name="enable_clock_weekday">Dzień tygodnia</string>
-    <string name="enable_clock_weekday_summary">Skrócona nazwa dnia tygodnia przed zegarem</string>
-    <string name="right_clock">Zegar z prawej strony</string>
-    <string name="center_clock">Zegar na środku</string>
-    <string name="dont_show">Nie pokazuj</string>
-    <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Wyświetl niestandardową datę przed zegarem</string>
-    <string name="clock_date_style">Styl daty</string>
-    <string name="clock_date_format">Format daty</string>
-    <string name="clock_date_string_edittext_title">Data musi być w odpowiednim formacie np. MM/DD/RR</string>
-    <string name="clock_date_string_edittext_summary">Wprowadź znaki</string>
-    <string name="am_pm_clock_normal">Normalny rozmiar czcionki</string>
-    <string name="am_pm_clock_small">Mały rozmiar czcionki</string>
-    <string name="am_pm_clock_none">Nie pokazuj</string>
-    <string name="clock_date_display_none">Nie pokazuj</string>
-    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
-    <string name="clock_date_display_normal">Normalny rozmiar czcionki</string>
-    <string name="clock_date_style_normal">Standardowy</string>
-    <string name="clock_date_style_lowercase">Małe litery</string>
-    <string name="clock_date_style_uppercase">Wielkie litery</string>
-    <string name="clock_date_format_custom">Własny format Java</string>
-    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
-    <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
 
     <!-- Quick settings -->
     <string name="quick_settings_category">Szybkie ustawienia</string>

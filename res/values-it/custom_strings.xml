@@ -70,6 +70,10 @@
     <string name="show_carrier_statusbar">A schermo sbloccato</string>
     <string name="show_carrier_enabled">Sempre</string>
 
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Ticker delle notifiche</string>
+    <string name="status_bar_ticker_summary">Animazione del testo di notifica nella barra di stato</string>
+
     <!--Power menu -->
     <string name="power_category">Pulsante di spegnimento</string>
     <string name="lockscreen_enable_power_menu_title">Mostra il menu di spegnimento nel blocco schermo</string>
@@ -78,40 +82,6 @@
     <!-- Touch control -->
     <string name="touch_control_settings_title">Controllo touch</string>
     <string name="touch_control_settings_summary">Gestisci opzioni avanzate di accensione come il doppio tap per accendere e altro</string>
-
-    <!-- Status bar | Clock -->
-    <string name="status_bar_clock_category">Barra di stato</string>
-    <string name="status_bar_clock">Orologio e data</string>
-    <string name="status_bar_clock_title">Stile dell\'orologio e della data</string>
-    <string name="clock_title_enable">Allineamento</string>
-    <string name="clock_enabled">Abilitato</string>
-    <string name="clock_disabled">Disabilitato</string>
-    <string name="status_bar_show_clock_title">Mostra orologio e data</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">L\'orologio 24-ore è abilitato</string>
-    <string name="enable_clock_weekday">Giorno della settimana</string>
-    <string name="enable_clock_weekday_summary">Giorno della settimana abbreviato prima dell\'orario</string>
-    <string name="right_clock">Orologio a destra</string>
-    <string name="center_clock">Orologio centrale</string>
-    <string name="dont_show">Non mostrare</string>
-    <string name="clock_date_display">Data</string>
-    <string name="clock_date_display_summary">Mostra data personalizzata prima dell\'orologio</string>
-    <string name="clock_date_style">Stile della data</string>
-    <string name="clock_date_format">Formato della data</string>
-    <string name="clock_date_string_edittext_title">Deve essere nel formato della data es. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Inserisci stringa</string>
-    <string name="am_pm_clock_normal">Dimensione del carattere normale</string>
-    <string name="am_pm_clock_small">Dimensione del carattere piccola</string>
-    <string name="am_pm_clock_none">Non mostrare</string>
-    <string name="clock_date_display_none">Non mostrare</string>
-    <string name="clock_date_display_small">Dimensione del carattere piccola</string>
-    <string name="clock_date_display_normal">Dimensione del carattere normale</string>
-    <string name="clock_date_style_normal">Normale</string>
-    <string name="clock_date_style_lowercase">Allineato in basso</string>
-    <string name="clock_date_style_uppercase">Allineato in alto</string>
-    <string name="clock_date_format_custom">Formato java personalizzato</string>
-    <string name="status_bar_ticker_title">Ticker delle notifiche</string>
-    <string name="status_bar_ticker_summary">Animazione del testo di notifica nella barra di stato</string>
 
     <!-- Quick settings -->
     <string name="quick_settings_category">Quick settings</string>

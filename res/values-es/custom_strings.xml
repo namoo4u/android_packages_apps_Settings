@@ -65,6 +65,10 @@
     <string name="show_carrier_statusbar">Operadora en barra de estado</string>
     <string name="show_carrier_enabled">Habilitado</string>
 
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Notificación Ticker</string>
+    <string name="status_bar_ticker_summary">Notificación con animación de texto en barra de estado</string>
+
     <!--Power menu -->
     <string name="power_category">Botón de encendido</string>
     <string name="lockscreen_enable_power_menu_title">Habilitar en pantalla de bloqueo</string>
@@ -73,40 +77,6 @@
     <!-- Touch control -->
     <string name="touch_control_settings_title">Touch control</string>
     <string name="touch_control_settings_summary">Administrar opciones avanzadas de encendido incluyendo tocar dos veces para despertar y más</string>
-
-    <!-- Status bar | Clock -->
-    <string name="status_bar_clock_category">Barra de estado</string>
-    <string name="status_bar_clock">Reloj y fecha</string>
-    <string name="status_bar_clock_title">Estilo de reloj y fecha</string>
-    <string name="clock_title_enable">Alineación</string>
-    <string name="clock_enabled">Activado</string>
-    <string name="clock_disabled">Desactivado</string>
-    <string name="status_bar_show_clock_title">Mostrar reloj y fecha</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">Reloj 24 horas activado</string>
-    <string name="enable_clock_weekday">Día de la semana</string>
-    <string name="enable_clock_weekday_summary">Día abreviado de la semana antes de la hora</string>
-    <string name="right_clock">Reloj a la derecha</string>
-    <string name="center_clock">Reloj centrado</string>
-    <string name="dont_show">No mostrar</string>
-    <string name="clock_date_display">Fecha</string>
-    <string name="clock_date_display_summary">Ver fechas personalizadas antes que el reloj</string>
-    <string name="clock_date_style">Estilo de fecha</string>
-    <string name="clock_date_format">Formato de fecha</string>
-    <string name="clock_date_string_edittext_title">Debe estar en formato de fecha ejem. MM/dd/aa</string>
-    <string name="clock_date_string_edittext_summary">Introduzca string</string>
-    <string name="am_pm_clock_normal">Tamaño normal de fuente</string>
-    <string name="am_pm_clock_small">Tamaño pequeño de la fuente</string>
-    <string name="am_pm_clock_none">No mostrar</string>
-    <string name="clock_date_display_none">No mostrar</string>
-    <string name="clock_date_display_small">Tamaño pequeño de la fuente</string>
-    <string name="clock_date_display_normal">Tamaño normal de fuente</string>
-    <string name="clock_date_style_normal">Normal</string>
-    <string name="clock_date_style_lowercase">Minúsculas</string>
-    <string name="clock_date_style_uppercase">Mayúsculas</string>
-    <string name="clock_date_format_custom">Formato java personalizado</string>
-    <string name="status_bar_ticker_title">Notificación Ticker</string>
-    <string name="status_bar_ticker_summary">Notificación con animación de texto en barra de estado</string>
 
     <!-- Quick settings -->
     <string name="quick_settings_category">Ajustes rápidos</string>

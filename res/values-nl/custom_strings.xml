@@ -62,6 +62,10 @@
     <string name="status_bar_category">Statusbalk</string>
     <string name="status_bar_show_carrier_title">Toon info-label</string>
 
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Melding Ticker</string>
+    <string name="status_bar_ticker_summary">Animatie van de meldingstekst in de statusbalk</string>
+
     <!--Power menu -->
     <string name="power_category">Aan/uit-knop</string>
     <string name="lockscreen_enable_power_menu_title">Het vergrendel menu weergeven</string>
@@ -69,40 +73,6 @@
     <!-- Touch control -->
     <string name="touch_control_settings_title">Aanraak controle</string>
     <string name="touch_control_settings_summary">Beheer geavanceerde ontwaakopties, waaronder dubbele tik om te onwaken en meer</string>
-
-    <!-- Status bar | Clock -->
-    <string name="status_bar_clock_category">Statusbalk</string>
-    <string name="status_bar_clock">Tijd en datum</string>
-    <string name="status_bar_clock_title">Tijd en datum stijl</string>
-    <string name="clock_title_enable">Uitlijning</string>
-    <string name="clock_enabled">Ingeschakeld</string>
-    <string name="clock_disabled">Uitgeschakeld</string>
-    <string name="status_bar_show_clock_title">Tijd en datum weergeven</string>
-    <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-uurs klok ingeschakeld</string>
-    <string name="enable_clock_weekday">Dag van de week</string>
-    <string name="enable_clock_weekday_summary">Afgekorte dag van de week voor het tijdstip</string>
-    <string name="right_clock">Tijd rechts</string>
-    <string name="center_clock">Tijd gecentreerd</string>
-    <string name="dont_show">Niet weergeven</string>
-    <string name="clock_date_display">Datum</string>
-    <string name="clock_date_display_summary">Aangepaste datum voor de tijd weergeven</string>
-    <string name="clock_date_style">Datum stijl</string>
-    <string name="clock_date_format">Date formatering</string>
-    <string name="clock_date_string_edittext_title">Moet in DateFormat bv. dd/MM/yy</string>
-    <string name="clock_date_string_edittext_summary">Voer tekst in</string>
-    <string name="am_pm_clock_normal">Normale lettergrootte</string>
-    <string name="am_pm_clock_small">Kleine lettergrootte</string>
-    <string name="am_pm_clock_none">Niet weergeven</string>
-    <string name="clock_date_display_none">Niet weergeven</string>
-    <string name="clock_date_display_small">Kleine lettergrootte</string>
-    <string name="clock_date_display_normal">Normale lettergrootte</string>
-    <string name="clock_date_style_normal">Normaal</string>
-    <string name="clock_date_style_lowercase">Kleine letters</string>
-    <string name="clock_date_style_uppercase">Hoofdletters</string>
-    <string name="clock_date_format_custom">Aangepast java-formaat</string>
-    <string name="status_bar_ticker_title">Melding Ticker</string>
-    <string name="status_bar_ticker_summary">Animatie van de meldingstekst in de statusbalk</string>
 
     <!-- Quick settings -->
     <string name="quick_settings_category">Snelle instellingen</string>
