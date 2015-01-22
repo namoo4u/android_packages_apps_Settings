@@ -91,6 +91,7 @@ import com.android.settings.headsup.HeadsUpSettings;
 import com.android.settings.notification.NotificationAppList;
 import com.android.settings.notification.OtherSoundSettings;
 import com.android.settings.profiles.NFCProfileTagCallback;
+import com.android.settings.profiles.ProfilesSettings;
 import com.android.settings.quicklaunch.QuickLaunchSettings;
 import com.android.settings.search.DynamicIndexableContentMonitor;
 import com.android.settings.search.Index;
@@ -314,7 +315,8 @@ public class SettingsActivity extends Activity
             com.android.settings.cyanogenmod.PrivacySettings.class.getName(),
             HeadsUpSettings.class.getName(),
             QSTiles.class.getName(),
-            DisplayRotation.class.getName()
+            DisplayRotation.class.getName(),
+            ProfilesSettings.class.getName()
     };
 
 
