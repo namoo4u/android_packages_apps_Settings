@@ -60,6 +60,14 @@
     <string name="show_activity_indicators_title">アクティビティインジケータ</string>
     <string name="show_activity_indicators_summary">インジケータを電波アイコン内に表示する</string>
 
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Clock</string>
+    <string name="status_bar_date_title">日付の表示スタイル</string>
+    <string name="status_bar_date_none">表示しない</string>
+    <string name="status_bar_date_small">小さい文字サイズ</string>
+    <string name="status_bar_date_normal">標準文字サイズ</string>
+    <string name="status_bar_date_format_title">日付フォーマット</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">通知ティッカー</string>
     <string name="status_bar_ticker_summary">ステータスバーで通知テキストをアニメーション表示する</string>

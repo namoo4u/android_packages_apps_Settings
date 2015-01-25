@@ -70,6 +70,14 @@
     <string name="show_activity_indicators_title">Indicateurs d\'activités</string>
     <string name="show_activity_indicators_summary">Afficher les indicateurs dans les barres de signal</string>
 
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Clock</string>
+    <string name="status_bar_date_title">Style de la date</string>
+    <string name="status_bar_date_none">Ne pas montrer</string>
+    <string name="status_bar_date_small">Taille de police petite</string>
+    <string name="status_bar_date_normal">Taille de police normale</string>
+    <string name="status_bar_date_format_title">Format de la date</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Notifications animées</string>
     <string name="status_bar_ticker_summary">Animation du texte des notifications dans la barre d\'état</string>

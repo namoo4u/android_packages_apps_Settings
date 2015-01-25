@@ -73,6 +73,14 @@
     <string name="show_activity_indicators_title">Индикатор сетевой активности</string>
     <string name="show_activity_indicators_summary">Показывать индикатор сетевой активности в строке сосояния на значках сети или WiFi</string>
 
+    <!--Status bar date -->
+    <string name="status_bar_clock_category">Clock</string>
+    <string name="status_bar_date_title">Стиль даты</string>
+    <string name="status_bar_date_none">Не показывать</string>
+    <string name="status_bar_date_small">Малый размер шрифта</string>
+    <string name="status_bar_date_normal">Обычный размер шрифта</string>
+    <string name="status_bar_date_format_title">Формат даты</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Показ уведомлений</string>
     <string name="status_bar_ticker_summary">Анимация текста уведомления в строке состояния</string>
