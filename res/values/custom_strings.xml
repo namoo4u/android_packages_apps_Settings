@@ -70,6 +70,14 @@
     <string name="show_carrier_statusbar">Status bar carrier</string>
     <string name="show_carrier_enabled">Enabled</string>
 
+    <!--Status bar data and wifi activity -->
+    <string name="show_activity_indicators_title">Activity indicators</string>
+    <string name="show_activity_indicators_summary">Show indicators in signal bars</string>
+
+    <!-- Notification ticker -->
+    <string name="status_bar_ticker_title">Notification ticker</string>
+    <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
+
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
     <string name="show_network_traffic_state">Status bar traffic monitor</string>
@@ -88,10 +96,6 @@
     <string name="network_traffic_autohide">Auto hide</string>
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Notification ticker</string>
-    <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
 
     <!--Power menu -->
     <string name="power_category">Power button</string>

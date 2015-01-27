@@ -65,6 +65,10 @@
     <string name="show_carrier_statusbar">Operadora en barra de estado</string>
     <string name="show_carrier_enabled">Habilitado</string>
 
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_title">Indicadores de actividad</string>
+    <string name="show_activity_indicators_summary">Ver indicadores en barra de señal</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Notificación Ticker</string>
     <string name="status_bar_ticker_summary">Notificación con animación de texto en barra de estado</string>

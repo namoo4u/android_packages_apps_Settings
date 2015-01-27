@@ -69,6 +69,10 @@
     <string name="show_carrier_statusbar">Значок оператора в строке состояния</string>
     <string name="show_carrier_enabled">Включен</string>
 
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_title">Индикатор сетевой активности</string>
+    <string name="show_activity_indicators_summary">Показывать индикатор сетевой активности в строке сосояния на значках сети или WiFi</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Показ уведомлений</string>
     <string name="status_bar_ticker_summary">Анимация текста уведомления в строке состояния</string>

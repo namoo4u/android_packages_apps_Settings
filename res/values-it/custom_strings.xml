@@ -70,6 +70,10 @@
     <string name="show_carrier_statusbar">A schermo sbloccato</string>
     <string name="show_carrier_enabled">Sempre</string>
 
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_title">Indicatori attività </string>
+    <string name="show_activity_indicators_summary">Mostra indicatori nella barra del segnale </string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Ticker delle notifiche</string>
     <string name="status_bar_ticker_summary">Animazione del testo di notifica nella barra di stato</string>

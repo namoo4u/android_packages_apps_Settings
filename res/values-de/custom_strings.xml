@@ -69,6 +69,10 @@
     <string name="show_carrier_statusbar">In der Statusleiste</string>
     <string name="show_carrier_enabled">Aktiviert</string>
 
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_title">Netzwerkaktivität</string>
+    <string name="show_activity_indicators_summary">Darstellung der Netzwerkaktivität im Empfangs- bzw. WLAN-Symbol in der Statusleiste</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Benachrichtigungsticker</string>
     <string name="status_bar_ticker_summary">Animierten Benachrichtigungstext in der Statusleiste anzeigen</string>

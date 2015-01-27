@@ -56,6 +56,10 @@
     <string name="status_bar_battery_show_percent_title">電池残量をパーセント表示</string>
     <string name="lockscreen_show_carrier_title">ロック画面キャリアラベル</string>
 
+    <!-- Status Bar Activity Indicators -->
+    <string name="show_activity_indicators_title">アクティビティインジケータ</string>
+    <string name="show_activity_indicators_summary">インジケータを電波アイコン内に表示する</string>
+
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">通知ティッカー</string>
     <string name="status_bar_ticker_summary">ステータスバーで通知テキストをアニメーション表示する</string>
