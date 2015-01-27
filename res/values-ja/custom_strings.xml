@@ -60,6 +60,25 @@
     <string name="status_bar_ticker_title">通知ティッカー</string>
     <string name="status_bar_ticker_summary">ステータスバーで通知テキストをアニメーション表示する</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_title">ネットワーク通信量</string>
+    <string name="show_network_traffic_state">ステータスバー通信量モニタ</string>
+    <string name="show_network_traffic_unit">表示単位</string>
+    <string name="show_network_traffic_frequency">更新間隔</string>
+    <string name="show_network_traffic_disable">無効</string>
+    <string name="show_network_traffic_up">上り</string>
+    <string name="show_network_traffic_down">下り</string>
+    <string name="show_network_traffic_all">上りと下り</string>
+    <string name="show_network_traffic_bit">ビット/秒</string>
+    <string name="show_network_traffic_byte">バイト/秒</string>
+    <string name="show_network_traffic_500">500 ミリ秒</string>
+    <string name="show_network_traffic_1000">1000 ミリ秒</string>
+    <string name="show_network_traffic_1500">1500 ミリ秒</string>
+    <string name="show_network_traffic_2000">2000 ミリ秒</string>
+    <string name="network_traffic_autohide">自動的に非表示</string>
+    <string name="network_traffic_autohide_summary">非アクティブ時はトラフィックモニタを非表示にする</string>
+    <string name="network_traffic_autohide_threshold">非アクティブのしきい値</string>
+
     <!--Power menu -->
     <string name="power_category">電源キー</string>
     <string name="lockscreen_enable_power_menu_title">ロック画面でも電源メニューを表示</string>

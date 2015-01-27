@@ -69,6 +69,25 @@
     <string name="status_bar_ticker_title">Notificación Ticker</string>
     <string name="status_bar_ticker_summary">Notificación con animación de texto en barra de estado</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Tráfico de red</string>
+    <string name="show_network_traffic_state">Monitor de tráfico barra de estado</string>
+    <string name="show_network_traffic_unit">Ver unidad</string>
+    <string name="show_network_traffic_frequency">Intervalo de actualización</string>
+    <string name="show_network_traffic_disable">Desactivado</string>
+    <string name="show_network_traffic_up">Saliente</string>
+    <string name="show_network_traffic_down">Entrante</string>
+    <string name="show_network_traffic_all">Saliente y entrante</string>
+    <string name="show_network_traffic_bit">Bits por segundo</string>
+    <string name="show_network_traffic_byte">Bytes por segundo</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto ocultar</string>
+    <string name="network_traffic_autohide_summary">Ocultar el monitor de tráfico cuando no hay actividad </string>
+    <string name="network_traffic_autohide_threshold">Umbral de inactividad</string>
+
     <!--Power menu -->
     <string name="power_category">Botón de encendido</string>
     <string name="lockscreen_enable_power_menu_title">Habilitar en pantalla de bloqueo</string>

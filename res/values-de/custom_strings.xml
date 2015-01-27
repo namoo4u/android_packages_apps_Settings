@@ -72,6 +72,25 @@
     <!-- Notification ticker -->
     <string name="status_bar_ticker_title">Benachrichtigungsticker</string>
     <string name="status_bar_ticker_summary">Animierten Benachrichtigungstext in der Statusleiste anzeigen</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Netzwerk-Traffic</string>
+    <string name="show_network_traffic_state">Traffic-Monitor</string>
+    <string name="show_network_traffic_unit">Einheit</string>
+    <string name="show_network_traffic_frequency">Aktualisierungsintervall</string>
+    <string name="show_network_traffic_disable">Deaktiviert</string>
+    <string name="show_network_traffic_up">Senden</string>
+    <string name="show_network_traffic_down">Empfangen</string>
+    <string name="show_network_traffic_all">Senden und Empfangen</string>
+    <string name="show_network_traffic_bit">Bits pro Sekunde</string>
+    <string name="show_network_traffic_byte">Bytes pro Sekunde</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Automatisch verbergen</string>
+    <string name="network_traffic_autohide_summary">Blendet den Traffic-Monitor aus wenn keine Aktivität vorhanden ist</string>
+    <string name="network_traffic_autohide_threshold">Inaktivitätsschwelle</string>
     
     <!--Power menu -->
     <string name="power_category">Ein/Aus-Taste</string>
