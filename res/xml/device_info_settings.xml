@@ -23,8 +23,8 @@
                 android:title="@string/updater_title"
                 android:summary="@string/updater_summary">
             <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="eu.chainfire.opendelta"
-                    android:targetClass="eu.chainfire.opendelta.MainActivity" />
+                    android:targetPackage="com.euphoria.ota"
+                    android:targetClass="com.euphoria.center.OTACenter" />
         </PreferenceScreen>
 
         <!-- Device status - launches activity -->
