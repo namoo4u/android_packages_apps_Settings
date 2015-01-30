@@ -16,6 +16,7 @@
 package com.android.settings.euphoria;
 
 import android.content.ContentResolver;
+import android.content.Context;
 import android.content.res.Configuration;
 import android.content.res.Resources;
 import android.database.ContentObserver;
@@ -33,15 +34,20 @@ import android.provider.Settings.SettingNotFoundException;
 import android.text.format.DateFormat;
 import android.view.View;
 
-import java.util.Date;
-
+import android.provider.SearchIndexableResource;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 import com.android.settings.cyanogenmod.SystemSettingSwitchPreference;
+import com.android.settings.search.BaseSearchIndexProvider;
+import com.android.settings.search.Indexable;
+
+import java.util.Date;
+import java.util.ArrayList;
+import java.util.List;
 
 public class StatusBarSettings extends SettingsPreferenceFragment
-            implements OnPreferenceChangeListener  {
+            implements OnPreferenceChangeListener, Indexable {
 
     private static final String GENERAL_CATEGORY = "general_category";
 
@@ -249,4 +255,25 @@ public class StatusBarSettings extends SettingsPreferenceFragment
         }
         mStatusBarDateFormat.setEntries(parsedDateEntries);
     }
+
+    public static final Indexable.SearchIndexProvider SEARCH_INDEX_DATA_PROVIDER =
+            new BaseSearchIndexProvider() {
+                @Override
+                public List<SearchIndexableResource> getXmlResourcesToIndex(Context context,
+                                                                            boolean enabled) {
+                    ArrayList<SearchIndexableResource> result =
+                            new ArrayList<SearchIndexableResource>();
+
+                    SearchIndexableResource sir = new SearchIndexableResource(context);
+                    sir.xmlResId = R.xml.status_bar_settings;
+                    result.add(sir);
+
+                    return result;
+                }
+
+                @Override
+                public List<String> getNonIndexableKeys(Context context) {
+                    return new ArrayList<String>();
+                }
+            };
 }
