@@ -32,7 +32,6 @@ import android.os.Looper;
 import android.os.Message;
 import android.os.UserHandle;
 import android.os.Vibrator;
-import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.Preference.OnPreferenceChangeListener;
 import android.preference.PreferenceCategory;
@@ -56,8 +55,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class NotificationSettings extends SettingsPreferenceFragment implements Indexable,
-                        Preference.OnPreferenceChangeListener {
+public class NotificationSettings extends SettingsPreferenceFragment implements Indexable {
     private static final String TAG = "NotificationSettings";
 
     private static final String KEY_SOUND = "sound";
@@ -76,7 +74,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private static final String KEY_INCREASING_RING_VOLUME = "increasing_ring_volume";
     private static final String KEY_NOTIFICATION_LIGHT = "notification_light";
     private static final String KEY_BATTERY_LIGHT = "battery_light";
-    private static final String PREF_LESS_NOTIFICATION_SOUNDS = "less_notification_sounds";
 
     private static final int SAMPLE_CUTOFF = 2000;  // manually cap sample playback at 2 seconds
 
@@ -109,9 +106,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
     private Preference mNotificationAccess;
     private boolean mSecure;
     private int mLockscreenSelectedValue;
-    private Preference mHeadsUp;
-
-    private ListPreference mAnnoyingNotifications;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -151,25 +145,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
 
         mNotificationAccess = findPreference(KEY_NOTIFICATION_ACCESS);
         refreshNotificationListeners();
-
-        mAnnoyingNotifications = (ListPreference) findPreference(PREF_LESS_NOTIFICATION_SOUNDS);
-        int notificationThreshold = Settings.System.getInt(getContentResolver(),
-                Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 0);
-        updateAnnoyingNotificationValues();
-
-        mHeadsUp = findPreference(Settings.System.HEADS_UP_NOTIFICATION);
-    }
-
-    private void updateAnnoyingNotificationValues() {
-        int notificationThreshold = Settings.System.getInt(getContentResolver(),
-                Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, 0);
-        if (mAnnoyingNotifications == null) {
-            mAnnoyingNotifications.setSummary(getString(R.string.less_notification_sounds_summary));
-        } else {
-            mAnnoyingNotifications.setValue(Integer.toString(notificationThreshold));
-            mAnnoyingNotifications.setSummary(mAnnoyingNotifications.getEntry());
-            mAnnoyingNotifications.setOnPreferenceChangeListener(this);
-        }
     }
 
     @Override
@@ -179,11 +154,6 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
         lookupRingtoneNames();
         updateNotificationPreferenceState();
         mSettingsObserver.register(true);
-        
-        boolean headsUpEnabled = Settings.System.getInt(
-                getContentResolver(), Settings.System.HEADS_UP_NOTIFICATION, 1) != 0;
-        mHeadsUp.setSummary(headsUpEnabled
-                ? R.string.summary_heads_up_enabled : R.string.summary_heads_up_disabled);
     }
 
     @Override
@@ -595,15 +565,4 @@ public class NotificationSettings extends SettingsPreferenceFragment implements 
             return rt;
         }
     };
-
-    public boolean onPreferenceChange(Preference preference, Object objValue) {
-        final String key = preference.getKey();
-        if (PREF_LESS_NOTIFICATION_SOUNDS.equals(key)) {
-            final int val = Integer.valueOf((String) objValue);
-            Settings.System.putInt(getContentResolver(),
-                    Settings.System.MUTE_ANNOYING_NOTIFICATIONS_THRESHOLD, val);
-            updateAnnoyingNotificationValues();
-        }
-        return true;
-    }
 }
