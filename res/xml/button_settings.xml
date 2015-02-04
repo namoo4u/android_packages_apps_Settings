@@ -50,8 +50,7 @@
         <PreferenceScreen
             android:key="navigation_bar_dimen"
             android:fragment="com.android.settings.euphoria.NavBarDimen"
-            android:title="@string/navbar_dimen_title"
-            android:dependency="disable_nav_keys" />
+            android:title="@string/navbar_dimen_title" />
 
         <com.android.settings.cyanogenmod.SystemSettingSwitchPreference
             android:key="navigation_bar_left"
