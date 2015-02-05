@@ -121,6 +121,8 @@
     <string name="qs_screenshot_tile">Screenshot</string>
     <string name="qs_sync_tile">Sync</string>
 
+    <string name="qs_main_tiles_summary_off_eos">Three or four tiles on each row</string>
+
     <!-- Quick Settings block on keyguard -->
     <string name="block_on_secure_keyguard_title">Disable on lock screen</string>
     <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lock screen</string>
