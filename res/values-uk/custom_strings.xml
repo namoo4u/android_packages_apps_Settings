@@ -70,10 +70,6 @@
     <string name="show_carrier_statusbar">На панелі статусу</string>
     <string name="show_carrier_enabled">Увімкнено</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Тікер повідомлення</string>
-    <string name="status_bar_ticker_summary">Анімаційний текст повідомлення на панелі статусу</string>
-
     <!--Power menu -->
     <string name="power_category">Кнопка вмикання</string>
     <string name="lockscreen_enable_power_menu_title">Увімкнено на екрані блокування</string>

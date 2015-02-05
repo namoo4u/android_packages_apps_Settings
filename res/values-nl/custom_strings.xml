@@ -74,10 +74,6 @@
     <string name="status_bar_date_normal">Normale lettergrootte</string>
     <string name="status_bar_date_format_title">Date formatering</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Melding Ticker</string>
-    <string name="status_bar_ticker_summary">Animatie van de meldingstekst in de statusbalk</string>
-
     <!-- Network traffic -->
     <string name="network_traffic_title">Netwerkverkeer</string>
     <string name="show_network_traffic_state">Netwerkmonitor op statusbalk weergeven</string>

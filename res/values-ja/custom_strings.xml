@@ -71,10 +71,6 @@
     <string name="status_bar_date_normal">標準文字サイズ</string>
     <string name="status_bar_date_format_title">日付フォーマット</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">通知ティッカー</string>
-    <string name="status_bar_ticker_summary">ステータスバーで通知テキストをアニメーション表示する</string>
-
     <!-- Network traffic -->
     <string name="network_traffic_title">ネットワーク通信量</string>
     <string name="show_network_traffic_state">ステータスバー通信量モニタ</string>
