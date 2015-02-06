@@ -81,10 +81,6 @@
     <string name="status_bar_date_normal">Taille de police normale</string>
     <string name="status_bar_date_format_title">Format de la date</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Notifications animées</string>
-    <string name="status_bar_ticker_summary">Animation du texte des notifications dans la barre d\'état</string>
-
     <!-- Network traffic -->
     <string name="network_traffic_title">Trafic réseau</string>
     <string name="show_network_traffic_state">Moniteur de trafic sur la barre d\'état</string>

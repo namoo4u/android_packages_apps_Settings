@@ -77,10 +77,6 @@
     <string name="status_bar_date_normal">Normalny rozmiar czcionki</string>
     <string name="status_bar_date_format_title">Format daty</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Podgląd powiadomienia</string>
-    <string name="status_bar_ticker_summary">Animacja treści powiadomienia na pasku stanu</string>
-
     <!--Power menu -->
     <string name="power_category">Przycisk zasilania</string>
     <string name="lockscreen_enable_power_menu_title">Pokaż menu zasilania na ekranie blokady</string>

@@ -81,10 +81,6 @@
     <string name="status_bar_date_normal">Обычный размер шрифта</string>
     <string name="status_bar_date_format_title">Формат даты</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Показ уведомлений</string>
-    <string name="status_bar_ticker_summary">Анимация текста уведомления в строке состояния</string>
-
     <!-- Network traffic -->
     <string name="network_traffic_title">Индикатор сетевого трафика</string>
     <string name="show_network_traffic_state">Показывать скорость передачи данных</string>

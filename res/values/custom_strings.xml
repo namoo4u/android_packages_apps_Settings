@@ -82,9 +82,11 @@
     <string name="status_bar_date_normal">Normal</string>
     <string name="status_bar_date_format_title">Date format</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Notification ticker</string>
-    <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
+    <!-- Weather in status bar header -->
+    <string name="status_bar_show_weather_title_eos">Weather</string>
+
+    <!-- Notification count -->
+    <string name="status_bar_notif_count_title_eos">Notification count</string>
 
     <!-- Network traffic -->
     <string name="network_traffic_title">Network traffic</string>
@@ -105,10 +107,6 @@
     <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
     <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
 
-    <!-- Notification ticker -->
-    <string name="status_bar_ticker_title">Notification ticker</string>
-    <string name="status_bar_ticker_summary">Notification text animation in the statusbar</string>
-
     <!--Power menu -->
     <string name="power_category">Power button</string>
     <string name="lockscreen_enable_power_menu_title">Enable on lock screen</string>
@@ -118,31 +116,33 @@
     <string name="touch_control_settings_title">Touch control</string>
     <string name="touch_control_settings_summary">Manage advance wakeup options including double tap to wake and more</string>
 
-    <!-- QuickSettings tiles -->
+    <!-- Quick Settings tiles -->
     <string name="quick_settings_category">Quick settings</string>
     <string name="qs_screenshot_tile">Screenshot</string>
     <string name="qs_sync_tile">Sync</string>
 
-    <!-- QuickSettings block on keyguard -->
+    <string name="qs_main_tiles_summary_off_eos">Three or four tiles on each row</string>
+
+    <!-- Quick Settings block on keyguard -->
     <string name="block_on_secure_keyguard_title">Disable on lock screen</string>
     <string name="block_on_secure_keyguard_summary">Disable quick settings on secure lock screen</string>
 
-    <!-- QuickSettings haptic feedback -->
+    <!-- Quick Settings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibrate on touch</string>
     <string name="quick_settings_vibrate_summary">Vibrate when touching tiles</string>
 
-    <!-- QuickSettings collapse panel -->
+    <!-- Quick Settings collapse panel -->
     <string name="quick_settings_collapse_title">Auto close panel</string>
     <string name="quick_settings_collapse_summary">Close the quick settings panel upon toggle</string>
 
-    <!-- QuickSettings brightness slider -->
-    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <!-- Quick Settings brightness slider -->
+    <string name="qs_brightness_slider_title_eos">Brightness slider</string>
     <string name="qs_brightness_slider_summary">Show a brightness slider in the quick settings panel</string>
 
-    <!-- QuickSettings 4 columns -->
+    <!-- Quick Settings 4 columns -->
     <string name="qs_four_columns_title">Show four tiles per row</string>
 
-    <!-- SuperSU header name - the app hides itself from launcher based on this resource name being present in com.android.settings -->
+    <!-- SuperSU header name -->
     <string name="supersu_title">SuperSU</string>
 
     <!-- Unaccounted and overcounted battery stats -->
@@ -296,4 +296,14 @@
     <string name="lockscreen_message_disabled">Shortcuts are disabled.</string>
     <string name="lockscreen_shortcuts_enabled">Lock screen shortcuts are enabled</string>
     <string name="lockscreen_shortcuts_disabled">Lock screen shortcuts are disabled</string>
+
+    <!-- Display settings screen, setting options for LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">Device default</string>
+    <string name="lcd_density_unsupported">Unsupported</string>
+    <string name="restarting_ui">Restarting</string>
+
+    <!-- Navring targets (enable/disable) -->
+    <string name="navigation_ring_enable_title">Enable navigation rings</string>
 </resources>

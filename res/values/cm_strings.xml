@@ -98,16 +98,6 @@
     <string name="profile_trigger_disconnect">On disconnect</string>
     <string name="profile_trigger_notrigger">No trigger</string>
 
-    <!-- Profile Settings sound modes labels -->
-    <string name="sound_mode">Notification mode</string>
-    <string name="ringer_mode">Ring mode</string>
-    <string name="lights_mode">Lights mode</string>
-    <string name="vibrate_mode">Vibrate mode</string>
-
-    <!-- Sound settings screen, setting option name to pick ringtone (a list dialog comes up)-->
-    <string name="soundtone_title">Notification tone</string>
-    <string name="soundtone_summary" translatable="false">""</string>
-
     <!-- Title for application group setting screen -->
     <string name="profile_applist_title">Apps</string>
 
@@ -163,6 +153,7 @@
     <string name="power_end_call_title">End call</string>
     <string name="power_end_call_summary">Pressing the power button will end the current call</string>
     <string name="button_wake_title">Wake up device</string>
+    <string name="button_wake_summary">Overrides playback control</string>
     <string name="home_answer_call_title">Answer call</string>
     <string name="home_answer_call_summary">Pressing the home button will answer the current incoming call</string>
 
@@ -278,6 +269,12 @@
     <!-- CM Updater -->
     <string name="cmupdate_settings_title">CyanogenMod updates</string>
 
+    <!-- Settings switch for updating Cyanogen recovery -->
+    <string name="update_recovery_title">Update Cyanogen recovery</string>
+    <string name="update_recovery_summary">Update recovery with system updates</string>
+    <string name="update_recovery_on_warning">NOTICE: When this feature is enabled, your installed recovery will be replaced by one included with the current version of the running OS.\n\nYour recovery will be updated along with upgrades to your system, helping to ensure compatibility with future versions.\n\nWould you like to enable this feature?</string>
+    <string name="update_recovery_off_warning">WARNING: When this feature is disabled, your installed recovery will not be updated with OS upgrades.\n\nFuture OS updates may not install with outdated or custom recovery versions.\n\nDo you really want to disable this feature?</string>
+
     <!-- About phone screen, CyanogenMod version -->
     <string name="mod_version">CyanogenMod version</string>
     <string name="mod_version_default">Unknown</string>
@@ -364,7 +361,7 @@
     <string name="navigation_bar_left_title">Left-handed mode</string>
     <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
     <string name="navigation_bar_title">Buttons and layout</string>
-    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap save to commit your changes, or restore to reset the layout to default settings.</string>
+    <string name="navigation_bar_help_text">To get started tap the edit icon to unlock the navigation bar for editing.\n\nYou can tap an icon to change its shortcut, or long press an icon to re-arrange the layout.\n\nTap \'Save\' to commit your changes, or \'Restore defaults\' to reset the layout to default settings.</string>
     <string name="navigation_restore_button_text">Restore\ndefaults</string>
     <string name="navigation_edit_button_text">Edit</string>
     <string name="navigation_save_button_text">Save</string>
@@ -378,7 +375,7 @@
     <string name="status_bar_title">Status bar</string>
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
-    <string name="status_bar_notif_count_title">Notification count</string>
+    <string name="status_bar_notif_count_title">Show notification count</string>
     <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
 
     <!-- Status bar - Clock -->
@@ -684,9 +681,6 @@
     <!-- Message when bluetooth dialog for pin entry is showing  when HIGH security enabled-->
     <string name="bluetooth_enter_pin_msg_hs">To pair with:<xliff:g id="bold">&lt;br>&lt;b></xliff:g><xliff:g id="device_name">%1$s</xliff:g><xliff:g id="end_bold">&lt;/b>&lt;br>&lt;br></xliff:g>Type the device\'s required PIN (16 digits or more):</string>
 
-    <!-- Bluetooth settings.  Message when connected to a device, except for pbap. [CHAR LIMIT=40] -->
-    <string name="bluetooth_connected_no_pbap">Connected (no phonebook access)</string>
-
     <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the DUN profile. -->
     <string name="bluetooth_profile_dun">Dial-up Network Access</string>
     <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the SAP profile. -->
@@ -742,14 +736,14 @@
     <string name="usb_format_summary" product="default">Erases all data on the USB storage, such as music and photos</string>
     <string name="usb_mount" product="default">Mount USB storage</string>
     <string name="usb_mount_summary" product="default"></string>
-    <string name="usb_insert_summary" product="default">Insert an USB storage for mounting</string>
+    <string name="usb_insert_summary" product="default">Insert USB storage to mount</string>
     <string name="uicc_eject" product="default">Unmount UICC storage</string>
     <string name="uicc_eject_summary" product="default">Unmount the UICC storage so you can safely remove it</string>
     <string name="uicc_format" product="default">Erase UICC storage</string>
     <string name="uicc_format_summary" product="default">Erases all data on the UICC storage, such as music and photos</string>
     <string name="uicc_mount" product="default">Mount UICC storage</string>
     <string name="uicc_mount_summary" product="default"></string>
-    <string name="uicc_insert_summary" product="default">Insert an UICC storage for mounting</string>
+    <string name="uicc_insert_summary" product="default">Insert UICC storage to mount</string>
     <!-- Title of dialog asking user to confirm before enabling UMS. [CHAR LIMIT=48] -->
     <string name="usb_settings_enable_ums_title">Enable mass storage?</string>
     <!-- Message of dialog asking user to confirm before enabling UMS. [CHAR LIMIT=NONE] -->
@@ -764,10 +758,6 @@
     <string name="usb_unmount_inform_text" product="default">USB storage will be unmounted.</string>
     <string name="uicc_unmount_inform_text" product="default">UICC storage will be unmounted.</string>
 
-    <string name="usb_media_format_title" product="default">Erase USB storage</string>
-    <string name="uicc_media_format_title" product="default">Erase UICC storage</string>
-    <string name="usb_media_format_summary" product="default">Erases all data on the USB storage</string>
-    <string name="uicc_media_format_summary" product="default">Erases all data on the UICC storage</string>
     <string name="usb_media_format_desc" product="default">Erase the USB storage? You will lose <b>all</b> data on the storage!</string>
     <string name="uicc_media_format_desc" product="default">Erase the UICC storage? You will lose <b>all</b> data on the storage!</string>
     <string name="usb_media_format_button_text" product="default">Erase USB storage</string>
@@ -807,8 +797,6 @@
     <string name="sim_enabler_enabling">Activating <xliff:g id="name">%s</xliff:g>\u2026</string>
     <string name="sim_enabler_disabling">Deactivating <xliff:g id="name">%s</xliff:g>\u2026</string>
     <string name="sim_enabler_deactivate">Deactivate</string>
-    <string name="sub_activate_success">SIM activated.</string>
-    <string name="sub_deactivate_success">SIM deactivated.</string>
 
     <string name="primary_sub_select_title">Default 3G/LTE subscription</string>
 
@@ -925,12 +913,12 @@
     <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
 
     <!-- Weather in status bar header -->
-    <string name="status_bar_show_weather_title">Weather</string>
+    <string name="status_bar_show_weather_title">Show weather</string>
     <string name="status_bar_show_weather_summary">Show the weather above the Quick Settings panel</string>
 
     <string name="qs_category_title">Quick Settings panel</string>
 
-    <string name="qs_brightness_slider_title">Brightness slider</string>
+    <string name="qs_brightness_slider_title">Show brightness slider</string>
 
     <string name="qs_order_title">Select and order tiles</string>
     <string name="add_qs">Add new tile</string>
@@ -961,7 +949,7 @@
 
     <string name="qs_main_tiles_title">Enlarge first row</string>
     <string name="qs_main_tiles_summary_on">Two main tiles on the first row</string>
-    <string name="qs_main_tiles_summary_off">Three or four tiles on each row</string>
+    <string name="qs_main_tiles_summary_off">Three tiles on each row</string>
 
     <string name="qs_advanced_location_title">Advanced location settings</string>
     <string name="qs_advanced_location_summary">Enable advanced settings for location in Quick Settings</string>
@@ -996,16 +984,47 @@
     <string name="expanded_hide_navigation">Hide navigation bar</string>
     <string name="expanded_hide_both">Hide both</string>
     <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set \'Enabled for all\' to the off position</string>
-    <string name="expanded_desktop_state">Expanded state</string>
     <string name="expanded_enabled_for_all">Enabled for all</string>
-    <string name="expanded_user_configurable">User configurable</string>
 
-    <string name="lockscreen_settings_title">Lock screen</string>
-    <string name="lockscreen_targets_message">Shortcuts</string>
+    <string name="lockscreen_targets_message">Lock screen shortcuts</string>
     <string name="lockscreen_default_target">Default</string>
+    <string name="lockscreen_none_target">None</string>
     <string name="lockscreen_message">Tap an icon on the left or right to reassign a lock screen shortcut.</string>
     <string name="lockscreen_choose_action_title">Choose action</string>
 
+    <!-- WhisperPush -->
+    <string name="whisperpush_title">WhisperPush</string>
+    <string name="whisperpush_summary">Manage secure SMS settings</string>
+
     <string name="navigation_ring_title">Navigation ring targets</string>
-    <string name="navigation_ring_message">Tap the edit icon to open the navigation ring for editing.\n\nSelect a target to configure its behavior.\n\nTap the check mark icon to save your changes, or restore to reset the settings to defaults.</string>
+    <string name="navigation_ring_message">Tap the edit icon to open the navigation ring for editing.\n\nSelect a target to configure its behavior.\n\nTap the \'\u2713\' icon to save your changes, or \'Restore defaults\' to reset the settings to defaults.</string>
+
+    <!-- Stylus Icon -->
+    <string name="stylus_icon_enabled_title">Show icon when using stylus</string>
+    <string name="stylus_icon_enabled_summary">Show the pointer icon when hovering or drawing with the stylus</string>
+
+    <!-- Stylus Gestures -->
+    <string name="gestures_settings_title">Stylus gestures</string>
+    <string name="category_spen_title">Stylus gestures</string>
+    <string name="enable_subcat_title">Stylus</string>
+    <string name="enable_spen_title_head">Enable gestures</string>
+    <string name="enable_spen_summary_head">Use swipe gestures by holding down the stylus button</string>
+    <string name="gestures_subcat_title">Gestures</string>
+    <string name="gestures_left_spen_title_head">Left swipe</string>
+    <string name="gestures_right_spen_title_head">Right swipe</string>
+    <string name="gestures_up_spen_title_head">Up swipe</string>
+    <string name="gestures_down_spen_title_head">Down swipe</string>
+    <string name="gestures_long_spen_title_head">Long press</string>
+    <string name="gestures_double_spen_title_head">Double tap</string>
+
+    <!-- Gestures Options -->
+    <string name="gestures_action_empty">No action</string>
+    <string name="gestures_action_home">Home</string>
+    <string name="gestures_action_back">Back</string>
+    <string name="gestures_action_menu">Menu</string>
+    <string name="gestures_action_search">Invoke search</string>
+    <string name="gestures_action_recent">Recent apps</string>
+
+    <!-- Stylus gestures -->
+    <string name="stylus_app_not_installed">%s is not installed</string>
 </resources>
