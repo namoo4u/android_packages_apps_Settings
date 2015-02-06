@@ -101,7 +101,7 @@ public class ChooseLockPassword extends SettingsActivity {
         private static final String KEY_UI_STAGE = "ui_stage";
         private TextView mPasswordEntry;
         private int mPasswordMinLength = 4;
-        private int mPasswordMaxLength = 16;
+        private int mPasswordMaxLength = 64;
         private int mPasswordMinLetters = 0;
         private int mPasswordMinUpperCase = 0;
         private int mPasswordMinLowerCase = 0;
